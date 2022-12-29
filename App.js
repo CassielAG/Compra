@@ -1,11 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Sams_btn from './components/Sams_btn';
+import Walmart_btn from './components/Walmart_btn'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Sams_btn></Sams_btn>
+      <Walmart_btn></Walmart_btn>
     </View>
   );
 }
